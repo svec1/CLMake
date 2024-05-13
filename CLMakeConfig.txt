@@ -1,0 +1,13 @@
+set(CLMAKE_minimal_version 2) - ERROR
+
+set(CLMAKE_LOGGING 1)
+set(CLMAKE_WARNING_PROJECT 1)
+set(file__ $"C:\CLMake\src\main.cpp" $"C:\CLMake\src\ConsoleManager\ConsoleManager.cpp" $"C:\CLMake\src\builder\SystemBuild\*.cpp" $"C:\CLMake\src\builder\class\*.cpp" $"C:\CLMake\src\builder\StreamEI\*.cpp" $"C:\CLMake\src\bin\*.cpp" $"C:\CLMake\src\builder\bin\serelization.cpp")
+set(assist $"C:\CLMake\src\builder\setup\assistant\*.cpp")
+set(def $"C:\CLMake\src\builder\SystemBuild\func\*.cpp")
+
+project($"clmake" file__ assist def)
+
+add_standart_CPP($"clmake" 17)
+
+create_Executable($"clmake" $"clmake")

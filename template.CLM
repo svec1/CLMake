@@ -1,0 +1,7 @@
+COMPILE_C_CPP_OBJ:command-flag_c,src_file,flag_out,name_obj,flags_compiler,include;
+LINK_C_CPP_EXE:command-flag_c,obj_file,flag_out,name_exe,flags_linker,dll,lib;
+ARC:command-name_exe,include,obj_file;
+.NET:command-flag_t,target,src_file,flag_o,name_exe;
+ASM:command-flag_f,target,src_file,flag_o,name_exe;
+j:command-pr,file,flag;
+j2:command-flag;

@@ -1,0 +1,25 @@
+# SET SPECIAL CONFIG VARIABLES -- 
+set(CLMAKE_LOGGING 1)
+set(CLMAKE_DLL_REG 0)
+set(CLMAKE_WARNING_PROJECT 1)
+set(CLMAKE_USER_TEMPLATE 0)
+
+# SET PATH LIBS -- 
+set(__LIBS $"NONE")
+set(__LIBS_DLL $"NONE")
+
+set(CLMAKE_PATH_CATOLOG_LIB __LIBS)
+set(CLMAKE_PATH_CATOLOG_DLL __LIBS_DLL)
+
+set(CLMAKE_pathInclude $"")
+
+# PATH --
+set(CLMAKE_pathArc $"llvm-ar.exe")
+set(CLMAKE_pathLLVMRL $"")
+
+# LINKER --
+set(CLMAKE_LINKER 1)
+
+
+create_ConfProject($"target_0")
+sc_target($"target_0" $"C:\CLMake\CLMtarget_0.txt")
