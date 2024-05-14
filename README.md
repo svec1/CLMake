@@ -9,4 +9,4 @@ The build system is called one story, and it is in no way connected with Make, a
 The file "ListPlugin.exp" is a file where you can add plugins that will be loaded before building the project (plugins are dll files). Although the loading of plugins is somehow carried out, there are no applications for it, a number of rules have not been written for the operation of the plugins and the code itself for calling functions from the plugin, etc.
 
 
-[Documentation](https://app.gitbook.com/o/4HCDt3fYMDm4kO2hfUep/s/J2QZA2uTUVWSAtPS5r6c/clmake/clmake)
+[Doc's](https://north-cfs.gitbook.io/clmake/)
